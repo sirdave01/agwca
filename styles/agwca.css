@@ -47,3 +47,20 @@ nav a:hover {
     text-decoration: underline;
     color: #0056b3;
 }
+
+main {
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-message {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin-top: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
