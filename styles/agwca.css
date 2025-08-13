@@ -64,3 +64,69 @@ main {
     font-weight: bold;
     letter-spacing: 1px;
 }
+
+.welcome-text {
+    font-size: 1.2rem;
+    color: #555;
+    text-align: center;
+    margin-top: 1.5rem;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+
+.mission,
+.services,
+.gallery {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.mission h2,
+.services h2,
+.gallery h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    text-transform: uppercase;
+    color: #007bff;
+}
+
+.mission p,
+.services p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/* creating an infinte marquee effect for images in a gallery section */
+
+.gallery {
+    position: relative;
+    height: 100px;
+    width: 90%;
+    max-width: 1530px;
+    border: 1px solid #ddd;
+    overflow: hidden;
+}
+
+@keyframes scrollleft {
+    to {
+        left: -200px;
+    }
+}
+
+.gallery img {
+    width: 200px;
+    height: 100px;
+    max-width: 300px;
+    border-radius: 8px;
+    position: absolute;
+    left: 100%;
+    animation-name: scrollleft;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
