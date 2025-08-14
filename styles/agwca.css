@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html{
+    font-size: 16px; /* Base font size */
+    scroll-behavior: smooth; /* Smooth scrolling for anchor links */
+}
 /* General body styling */
 body {
     font-family: 'Quicksand', Arial, sans-serif;
@@ -214,7 +218,7 @@ footer nav img {
 
     nav ul {
         flex-wrap: wrap;
-        gap: 0.3rem;
+        gap: 0.5rem;
     }
 
     nav a {
@@ -276,6 +280,7 @@ footer nav img {
     }
 
     nav ul {
+        gap: 0.4rem;
         justify-content: center;
     }
 
