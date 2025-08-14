@@ -28,6 +28,7 @@ nav {
     margin-right: 2rem;
     align-items: center;
     justify-content: center;
+    white-space: nowrap;
 }
 
 nav ul {
