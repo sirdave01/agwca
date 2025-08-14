@@ -118,7 +118,7 @@ main {
     }
 }
 
-.gallery img {
+.gall {
     width: 200px;
     height: 100px;
     max-width: 300px;
@@ -126,7 +126,32 @@ main {
     position: absolute;
     left: 100%;
     animation-name: scrollleft;
-    animation-duration: 3s;
+    animation-duration: 30s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
+}
+
+.gall1 {
+    animation-delay: calc(30s / 6 * (6 - 1) * -1);
+    /* Adjust the delay for each image */
+}
+
+.gall2 {
+    animation-delay: calc(30s / 6 * (6 - 2) * -1);
+}
+
+.gall3 {
+    animation-delay: calc(30s / 6 * (6 - 3) * -1);
+}
+
+.gall4 {
+    animation-delay: calc(30s / 6 * (6 - 4) * -1);
+}
+
+.gall5 {
+    animation-delay: calc(30s / 6 * (6 - 5) * -1);
+}
+
+.gall6 {
+    animation-delay: calc(30s / 6 * (6 - 6) * -1);
 }
